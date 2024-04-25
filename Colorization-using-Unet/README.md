@@ -12,8 +12,6 @@ This repository presents a PyTorch implementation of a UNet-based image coloriza
 - [Colorization Model](#colorization-model)
 - [Understanding UNet: A Fundamental Overview](#understanding-unet-a-fundamental-overview)
 - [Applications of UNet](#Applications-of-UNet)
-- [Results](#results)
-- [Customization](#customization)
 
 ## Introduction
 
@@ -102,7 +100,7 @@ The decoder is the symmetric counterpart to the encoder, aiming to reconstruct t
 The final layer of the decoder typically consists of a 1x1 convolutional layer, which reduces the number of channels to match the desired output.
 
 
-![UNet-structure](https://github.com/seyyedmsl82/Colorization-using-Unet/blob/main/The-architecture-of-Unet.png)
+![UNet-structure](https://github.com/seyyedmsl82/Computer-Vision/blob/main/Colorization-using-Unet/The-architecture-of-Unet.png)
 
 
 ## Applications of UNet
@@ -119,10 +117,3 @@ UNet has been widely adopted in medical image analysis, particularly for tasks s
 
 Due to its architecture's versatility, UNet has been applied to various image translation tasks. In image colorization, for example, a UNet model can be trained to transform grayscale images into colored versions.
 
-## Results
-
-The training and validation logs are plotted to visualize the model's performance over epochs. Additionally, sample visualizations of predictions are included to showcase the colorization results.
-
-## Customization
-
-This project is designed for flexibility and experimentation. Users can customize various aspects such as the dataset, batch sizes, and model parameters to suit their specific colorization tasks. Adjust the data folder path, batch sizes, and other parameters based on your specific use case.
