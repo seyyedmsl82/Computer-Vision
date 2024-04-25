@@ -48,4 +48,4 @@ Adjust these parameters to experiment with different DeepDream effects.
 
 ![Generated Image](image.png)
 
-This image was generated using the provided example script with the specified parameters. Feel free to use your own images and customize the script for more creative results.
+This image was generated using the provided example script with the specified parameters.
