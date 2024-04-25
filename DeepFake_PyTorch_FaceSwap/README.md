@@ -1,7 +1,6 @@
 # DeepFake PyTorch Face Swapping
 
-This repository hosts a Python script designed for advanced face swapping using PyTorch, a powerful deep learning framework. The script not only detects and crops faces in images but also leverages an autoencoder architecture for encoding and decoding facial features, enabling realistic and seamless transformations between faces. The approach used here combines computer vision techniques, neural network architectures, and creative image manipulation to achieve the desired face swapping effect.
-
+This repository hosts a Python script designed for face swapping using PyTorch.
 ## Prerequisites
 
 Before diving into the details, make sure you have the required Python packages installed. Execute the following command to install the necessary dependencies:
@@ -62,11 +61,7 @@ The script enters a training loop, optimizing the parameters of the autoencoder 
 
 Every 100 epochs, the script visualizes the transformations between 'personA' and 'personB.' This insightful step showcases the effectiveness of the trained autoencoder in realistically swapping facial features. It provides a qualitative assessment of the model's performance.
 
-![Understanding the Technology Behind DeepFakes](https://github.com/seyyedmsl82/DeepFake_PyTorch_FaceSwap/blob/main/deepfake.png)
-![](https://github.com/seyyedmsl82/DeepFake_PyTorch_FaceSwap/blob/main/Deepfake-using-an-auto-encoder.png)
-
-## Acknowledgments
-
-This face swapping script draws inspiration from the repository maintained by [sizhky](https://github.com/sizhky/deep-fake-util). The acknowledgment section recognizes the contributions and inspirations from other developers, fostering a collaborative and innovative coding community.
+![Understanding the Technology Behind DeepFakes](https://github.com/seyyedmsl82/Computer-Vision/blob/main/DeepFake_PyTorch_FaceSwap/deepfake.png)
+![](https://github.com/seyyedmsl82/Computer-Vision/blob/main/DeepFake_PyTorch_FaceSwap/Deepfake-using-an-auto-encoder.png)
 
 ---
